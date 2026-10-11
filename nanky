@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Devinettes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jeu">
+        <h1>🎮 Jeu de Devinettes</h1>
+        <p>Bienvenue dans mon jeu !</p>
+        <p>Devine le nombre entre 1 et 10.</p>
+
+        <input type="number" id="nombre" min="1" max="10"
+               placeholder="Entre un nombre">
+
+        <button onclick="verifier()">Vérifier</button>
+        <p id="message"></p>
+
+        <button onclick="rejouer()">🔄 Rejouer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
